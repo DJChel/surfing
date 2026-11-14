@@ -5,10 +5,10 @@ declare(strict_types=1);
 mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 
 try {
-    $db = new mysqli('localhost', 'cz503219_surfing', 'dJ82Sxy3', 'cz503219_surfing', 3306);
+    $db = new mysqli('localhost', 'cz503219_surfing', 'NJEf4zgd-', 'cz503219_surfing', 3306);
     $db->set_charset('utf8mb4'); // без этого кириллица станет ??????
     echo 'Подключено';
-    
-} catch (mysqli_sql_exception $e) {
+
+} catch (mysqli_sql_exception $e) { 
     exit('Нет подключения к БД: ' . $e->getMessage());
 }

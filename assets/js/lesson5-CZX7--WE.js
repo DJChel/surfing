@@ -9,7 +9,7 @@ var n = e(() => {
         features: `Этот пока скрыт`,
         rating: 4,
         votes: 25,
-        price: 49e3,
+        price: 4990.9,
         images: [
           `/assets/img/product.png`,
           `/assets/img/preview4.png`,
